@@ -6,3 +6,4 @@
 # JS复习笔记目录
 1. [JS复习笔记之造call、apply轮子](https://github.com/YxrSadhu/Article/issues/1)
 2. [JS复习笔记之造bind轮子](https://github.com/YxrSadhu/Article/issues/2)
+3. [JS复习笔记之造new轮子](https://github.com/YxrSadhu/Article/issues/4)
