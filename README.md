@@ -1,9 +1,11 @@
-🤓Sadhu记录一些前端知识基础与底层的地方。
+🤓Sadhu写文章的地方。
 
 # 计划
-会整理一系列js知识，每周按空闲时间长短至少两篇，按照你不知道的js的内容排版顺序跟着写。
+1. 近期深入js知识总结。
+2. 深入系列完结前每周至少二更。
+3. 空的时候把以前在博客、技术社区上的写的还不错的文章搬过来。
 
-# JS复习笔记目录
-1. [JS复习笔记之造call、apply轮子](https://github.com/YxrSadhu/Article/issues/1)
-2. [JS复习笔记之造bind轮子](https://github.com/YxrSadhu/Article/issues/2)
-3. [JS复习笔记之造new轮子](https://github.com/YxrSadhu/Article/issues/4)
+# 深入JS笔记目录
+1. [深入js笔记之造call、apply轮子](https://github.com/YxrSadhu/Article/issues/1)
+2. [深入js笔记之造bind轮子](https://github.com/YxrSadhu/Article/issues/2)
+3. [深入js笔记之造new轮子](https://github.com/YxrSadhu/Article/issues/4)
