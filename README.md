@@ -1,4 +1,4 @@
-🤓Sadhu写文章的地方。
+Sadhu写文章的地方。
 
 # 计划
 1. 近期深入js知识总结。
@@ -10,6 +10,7 @@
 2. [深入js之内存管理与内存泄漏](https://github.com/YxrSadhu/Article/issues/6)
 3. [内存管理与内存泄漏思考题](https://github.com/YxrSadhu/Article/issues/7)
 4. [深入js之闭包](https://github.com/YxrSadhu/Article/issues/8)
-5. [深入js之造call、apply轮子](https://github.com/YxrSadhu/Article/issues/1)
-6. [深入js之造bind轮子](https://github.com/YxrSadhu/Article/issues/2)
-7. [深入js之造new轮子](https://github.com/YxrSadhu/Article/issues/4)
+5. [函数与函数式编程](https://github.com/YxrSadhu/Article/issues/9)
+6. [深入js之造call、apply轮子](https://github.com/YxrSadhu/Article/issues/1)
+7. [深入js之造bind轮子](https://github.com/YxrSadhu/Article/issues/2)
+8. [深入js之造new轮子](https://github.com/YxrSadhu/Article/issues/4)
