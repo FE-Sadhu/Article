@@ -15,3 +15,4 @@
 9. [深入js之造call、apply轮子](https://github.com/YxrSadhu/Article/issues/1)
 10. [深入js之造bind轮子](https://github.com/YxrSadhu/Article/issues/2)
 11. [深入js之造new轮子](https://github.com/YxrSadhu/Article/issues/4)
+12. [深入js之分析继承的多种方式](https://github.com/YxrSadhu/Article/issues/13)
