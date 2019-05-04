@@ -18,3 +18,4 @@
 12. [深入js之分析继承的多种方式](https://github.com/YxrSadhu/Article/issues/13)
 13. [深入js之深浅拷贝](https://github.com/YxrSadhu/Article/issues/14)
 14. [深入js之分析防抖与节流](https://github.com/YxrSadhu/Article/issues/15)
+15. [深入js之数组去重](https://github.com/YxrSadhu/Article/issues/16)
