@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>防抖</title>
+  <style>
+    span {
+      font-size: 18px;
+    }
+    div {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+      <span>没有防抖的input:</span><input type="text" id="unDebounce">
+  </div>
+  <div>
+      <span>防抖后的input:</span><input type="text" id="Debounce">
+  </div>
+  <!-- <div>
+      <span>没有防抖的input:</span><input type="text" id="unDebounce">
+  </div> -->
+  <script>
+    // 模拟一段ajax请求
+    function ajax(context) {
+      console.log('ajax request' + context.target.value);
+    }
+
+    // let inputa = document.getElementById('unDebounce');
+
+    // inputa.addEventListener('keyup', function(e) {
+    //   ajax(e.target.value);
+    // })
+
+    function debounce(fn, wait, immediate) { // immediate为立即执行一次的开关
+      var timeout = null;
+      return function() {
+        // 一开始立即执行一次fn，若在wait时间内再次触发事件执行回调，callNow 会为 false,不会调用到fn。若在wait时间后再触发事件则会再次立即执行。
+        var context = this;
+        var args = arguments;
+
+        if (timeout) clearTimeout(timeout);
+        if (immediate) {
+          var callNow = !timeout;
+          timeout = setTimeout(function() {
+            timeout = null;
+          }, wait);
+          if (callNow) fn.apply(context, args);
+        } else {
+          timeout = setTimeout(function() {
+            fn.apply(context, args);
+          }, wait)
+        }
+      }
+    }
+
+    let inputb = document.getElementById('Debounce');
+
+    inputb.addEventListener('keyup', debounce(ajax, 1000, true));
+  </script>
+</body>
+</html>
