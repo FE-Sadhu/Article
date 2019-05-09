@@ -1,7 +1,6 @@
 # 计划
-1. 近期深入js知识总结。
-2. 深入系列完结前每周至少二更。
-3. 空的时候会把自己以前在博客、技术社区上的写的还不错的文章搬过来。
+1. 近期总结运行机制(事件循环/浏览器机制)
+2. 空的时候会把自己以前在博客、技术社区上的写的还不错的文章搬过来。
 
 # 深入JS笔记目录
 1. [深入js之深究ES5规范前后的执行上下文相关](https://github.com/YxrSadhu/Article/issues/5)
@@ -19,3 +18,8 @@
 13. [深入js之深浅拷贝](https://github.com/YxrSadhu/Article/issues/14)
 14. [深入js之分析防抖与节流](https://github.com/YxrSadhu/Article/issues/15)
 15. [深入js之数组去重](https://github.com/YxrSadhu/Article/issues/16)
+
+# 运行机制
+1. [Let's talk about Event Loop](https://github.com/YxrSadhu/Article/issues/17)
+2. [最后一次搞懂 Event Loop](https://juejin.im/post/5cbc0a9cf265da03b11f3505)
+3. [从event loop规范探究javaScript异步及浏览器更新渲染时机](https://github.com/aooy/blog/issues/5)
