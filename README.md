@@ -23,3 +23,7 @@
 1. [Let's talk about Event Loop](https://github.com/YxrSadhu/Article/issues/17)
 2. [最后一次搞懂 Event Loop](https://juejin.im/post/5cbc0a9cf265da03b11f3505)
 3. [从event loop规范探究javaScript异步及浏览器更新渲染时机](https://github.com/aooy/blog/issues/5)
+
+# ajax技术方案
+1. 传统api => XMLHttpRequest : [你真的会使用XMLHttpRequest吗？](https://segmentfault.com/a/1190000004322487)
+2. 新型api => Fetch : [【译文】这个API很“迷人”](https://www.w3ctech.com/topic/854)
