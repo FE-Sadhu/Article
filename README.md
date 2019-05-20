@@ -27,3 +27,6 @@
 # ajax技术方案
 1. 传统api => XMLHttpRequest : [你真的会使用XMLHttpRequest吗？](https://segmentfault.com/a/1190000004322487)
 2. 新型api => Fetch : [【译文】这个API很“迷人”](https://www.w3ctech.com/topic/854)
+
+# 浏览器
+1. [研究浏览器存储](https://github.com/YxrSadhu/Article/issues/18)
