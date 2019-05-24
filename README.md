@@ -33,3 +33,6 @@
 2. 浏览器缓存：
    - 个人总结：[思维导图与流程图](https://github.com/YxrSadhu/Article/tree/master/articles/%E6%B5%8F%E8%A7%88%E5%99%A8/%E7%BC%93%E5%AD%98)
    - 好文：1. [一文读懂前端缓存](https://zhuanlan.zhihu.com/p/44789005?utm_source=qq&utm_medium=social&utm_oi=815669732077355008) 2. [深入理解浏览器的缓存机制](https://github.com/ljianshu/Blog/issues/23) 3. [浏览器缓存机制剖析](http://louiszhai.github.io/2017/04/07/http-cache/)
+3. 浏览器渲染：
+   - 个人总结：[思维导图与流程图](https://github.com/YxrSadhu/Article/tree/master/articles/%E6%B5%8F%E8%A7%88%E5%99%A8/%E6%B8%B2%E6%9F%93%E6%9C%BA%E5%88%B6)
+   - 好文：1. [你真的了解回流和重绘吗](https://juejin.im/post/5c0f104551882509a7683d63#heading-11) 2. [浏览器重绘(repaint)重排(reflow)与优化[浏览器机制]](https://juejin.im/post/5c15f797f265da61141c7f86#heading-13) 3. [深入浅出浏览器渲染原理](https://github.com/ljianshu/Blog/issues/51) 4. [渲染树构建、布局及绘制](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction?hl=zh-cn)
