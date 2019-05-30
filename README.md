@@ -37,5 +37,5 @@
    - 个人总结：[思维导图与流程图](https://github.com/YxrSadhu/Article/tree/master/articles/%E6%B5%8F%E8%A7%88%E5%99%A8/%E6%B8%B2%E6%9F%93%E6%9C%BA%E5%88%B6)
    - 好文：1. [你真的了解回流和重绘吗](https://juejin.im/post/5c0f104551882509a7683d63#heading-11) 2. [浏览器重绘(repaint)重排(reflow)与优化[浏览器机制]](https://juejin.im/post/5c15f797f265da61141c7f86#heading-13) 3. [深入浅出浏览器渲染原理](https://github.com/ljianshu/Blog/issues/51) 4. [渲染树构建、布局及绘制](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction?hl=zh-cn)
 4. 浏览器工作原理：从 URL 输入到页面展现到底发生了什么？
-   - 个人总结： [思维导图和流程图]()
+   - 个人总结： [思维导图和流程图](https://github.com/YxrSadhu/Article/blob/master/articles/%E6%B5%8F%E8%A7%88%E5%99%A8/%E4%BB%8E%E4%B8%80%E4%B8%AAurl%E8%BE%93%E5%85%A5%E5%88%B0%E9%A1%B5%E9%9D%A2%E5%B1%95%E7%A4%BA%E7%9A%84%E8%BF%87%E7%A8%8B.xmind)
    - 好文：1. 没开玩笑：[谢希仁版计网](https://book.douban.com/subject/26960678/) 2. [浏览器工作原理：从 URL 输入到页面展现到底发生了什么？](https://www.jianshu.com/p/d616d887953a)
