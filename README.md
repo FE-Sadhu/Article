@@ -40,5 +40,5 @@
    - 个人总结： [思维导图和流程图](https://github.com/YxrSadhu/Article/blob/master/articles/%E6%B5%8F%E8%A7%88%E5%99%A8/%E4%BB%8E%E4%B8%80%E4%B8%AAurl%E8%BE%93%E5%85%A5%E5%88%B0%E9%A1%B5%E9%9D%A2%E5%B1%95%E7%A4%BA%E7%9A%84%E8%BF%87%E7%A8%8B.xmind)
    - 好文：1. 没开玩笑：[谢希仁版计网](https://book.douban.com/subject/26960678/) 2. [浏览器工作原理：从 URL 输入到页面展现到底发生了什么？](https://www.jianshu.com/p/d616d887953a)
 
-   # vue
-   1. [标注图+部分举例聊聊Vue生命周期](https://github.com/YxrSadhu/Article/issues/19)
+# vue
+1. [标注图+部分举例聊聊Vue生命周期](https://github.com/YxrSadhu/Article/issues/19)
