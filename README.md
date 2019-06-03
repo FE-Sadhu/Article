@@ -19,6 +19,9 @@
 14. [深入js之分析防抖与节流](https://github.com/YxrSadhu/Article/issues/15)
 15. [深入js之数组去重](https://github.com/YxrSadhu/Article/issues/16)
 
+# ES6
+  见仓库学习代码和思维导图。
+  
 # 运行机制
 1. [Let's talk about Event Loop](https://github.com/YxrSadhu/Article/issues/17)
 2. [最后一次搞懂 Event Loop](https://juejin.im/post/5cbc0a9cf265da03b11f3505)
