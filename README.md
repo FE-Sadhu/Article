@@ -1,7 +1,3 @@
-# 计划
-1. 近期总结vue和webpack知识
-2. 空的时候会把自己以前在博客、技术社区上的写的还不错的文章搬过来。
-
 # 深入JS笔记目录
 1. [深入js之深究ES5规范前后的执行上下文相关](https://github.com/YxrSadhu/Article/issues/5)
 2. [深入js之内存管理与内存泄漏](https://github.com/YxrSadhu/Article/issues/6)
@@ -45,3 +41,7 @@
 
 # vue
 1. [标注图+部分举例聊聊Vue生命周期](https://github.com/YxrSadhu/Article/issues/19)
+2. [通过实现一个小型Vue来学习mvvm原理](https://github.com/YxrSadhu/mini-mvvm)
+3. [通过写个简易Event Bus来学习发布订阅模式](https://github.com/YxrSadhu/EventBus-PubSub)
+4. [用Vue开发仿旅游站webapp项目总结 （上）](https://juejin.im/post/5be54e04f265da611c267b19)
+5. [用Vue开发仿旅游站webapp项目总结 （下）](https://juejin.im/post/5bec0eeef265da61193b65cd)
