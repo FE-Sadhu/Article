@@ -45,3 +45,6 @@
 3. [通过写个简易Event Bus来学习发布订阅模式](https://github.com/YxrSadhu/EventBus-PubSub)
 4. [用Vue开发仿旅游站webapp项目总结 （上）](https://juejin.im/post/5be54e04f265da611c267b19)
 5. [用Vue开发仿旅游站webapp项目总结 （下）](https://juejin.im/post/5bec0eeef265da61193b65cd)
+
+# webpack
+1. [webpack初探及核心概念笔记](https://github.com/YxrSadhu/Article/issues/20)
