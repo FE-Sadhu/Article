@@ -19,8 +19,24 @@ function Mvvm (options = {}) {
     })
   }
 
+  // 初始化 computed,将 this 指向实例
+  initComputed.call(this);
+
   // 数据编译
-  new Compile(options.el, this)
+  new Compile(options.el, this);
+
+  options.mounted.call(this); // 这就实现了mounted钩子函数
+}
+
+function initComputed() {
+  let vm = this;
+  let computed = this.$options.computed;
+  Object.keys(computed).forEach(key => {
+    Object.defineProperty(vm, key, {
+      get: typeof computed[key] === 'function' ? computed[key] : computed[key].get,
+      set() {}
+    })
+  })
 }
 
 function Observe (data) {
