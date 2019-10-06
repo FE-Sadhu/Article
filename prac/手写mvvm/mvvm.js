@@ -77,6 +77,29 @@ function Compile(el, vm) {
         }
         replaceTxt();
       }
+      // 下面就是双向绑定
+      if (node.nodeType === 1) { // 元素节点
+        let nodeAttr = node.attributes; // 获取 dom 上所有属性，是个类数组
+        Array.from(nodeAttr).forEach(attr => {
+          let name = attr.name;
+          let exp = attr.value;
+          if (name.includes('v-')) {
+            node.value = vm[exp]
+          }
+
+          new Watcher(vm, exp, () => {
+            exp.split('.').reduce((val, key) => {
+              val = val[key]
+            }, vm)
+            node.value = val;
+          })
+
+          node.addEventListener('input', e => {
+            let newVal = e.target.value;
+            vm[exp] = newVal;
+          })
+        })
+      }
 
       // 如果还有子节点，递归replace
       if (node.childNodes && node.childNodes.length) {
