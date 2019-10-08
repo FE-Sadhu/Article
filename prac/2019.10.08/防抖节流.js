@@ -81,7 +81,7 @@ function throttlePrac (fn, wait) {
     if (last && now < last + wait) {
       clearTimeout(timer)
       timer = setTimeout(() => {
-        fn.apply(this, );
+        fn.apply(this, args);
         last = +new Date();
       }, wait)
     } else {
