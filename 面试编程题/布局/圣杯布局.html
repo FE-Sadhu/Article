@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  .container {
+    padding-left: 200px;
+    padding-right: 300px;
+  }
+  .left, .right, .main {
+    min-height: 300px;
+  }
+  .left, .main, .right {
+    float: left;
+    text-align: center;
+    line-height: 300px;
+  }
+  .left {
+    width: 200px;
+    margin-left: -100%;
+    position: relative;
+    left: -200px;
+    background: thistle;
+  }
+  .right {
+    width: 300px;
+    margin-left: -300px;
+    position: relative;
+    right: -300px;
+    background: violet;
+  }
+  .main {
+    width: 100%;
+    overflow: hidden;
+    background: #999;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      圣杯布局就是左右定宽中间自适应的三栏布局，采用左右 float ，中间自适应。然后中间栏放在前面优先渲染。
+    </div>
+    <div class="left">left</div>
+    <div class="right">right</div>
+  </div>
+</body>
+</html>
