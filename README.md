@@ -51,7 +51,7 @@
 1. [webpack初探及核心概念笔记](https://github.com/YxrSadhu/Article/issues/20)
 
 # 项目
-1. [基于vue全家桶 + axios 的音乐 webapp -> sadhu-music](https://github.com/YxrSadhu/sadhu-music) 总结文章会在找到实习后出。
+1. [基于 vue 全家桶 + axios 的音乐 webapp -> sadhu-music](https://github.com/YxrSadhu/sadhu-music) 总结文章会在找到实习后出。
 2. [基于 vue + vue-router + axios 仿饿了么实现外卖 webapp](https://github.com/YxrSadhu/vue-for-sell) 总结文章在找到实习后出。
 3. [基于 vue + vue-router 仿去哪儿实现旅游 webapp](https://github.com/YxrSadhu/vue-travel) 第一个做的 vue 项目，总结十分详细，见上方 vue title 下文章。
 
@@ -60,4 +60,6 @@
 
 # 杂耍demo
 1. [手写轮播图](https://github.com/YxrSadhu/carousel)
+2. 写个简略 mvvm 框架 -> 见上文 vue title 下文章。
+3. 写个简略 EventBus -> 见上文 vue title 下文章。
 
