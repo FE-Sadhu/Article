@@ -19,6 +19,7 @@
   见仓库学习代码和思维导图。
   
 # 运行机制
+> 视频： [(自备梯子)jsConf 2014 Philip Roberts: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 1. [Let's talk about Event Loop](https://github.com/YxrSadhu/Article/issues/17)
 2. [最后一次搞懂 Event Loop](https://juejin.im/post/5cbc0a9cf265da03b11f3505)
 3. [从event loop规范探究javaScript异步及浏览器更新渲染时机](https://github.com/aooy/blog/issues/5)
@@ -48,3 +49,15 @@
 
 # webpack
 1. [webpack初探及核心概念笔记](https://github.com/YxrSadhu/Article/issues/20)
+
+# 项目
+1. [基于vue全家桶 + axios 的音乐 webapp -> sadhu-music](https://github.com/YxrSadhu/sadhu-music) 总结文章会在找到实习后出。
+2. [基于 vue + vue-router + axios 仿饿了么实现外卖 webapp](https://github.com/YxrSadhu/vue-for-sell) 总结文章在找到实习后出。
+3. [基于 vue + vue-router 仿去哪儿实现旅游 webapp](https://github.com/YxrSadhu/vue-travel) 第一个做的 vue 项目，总结十分详细，见上方 vue title 下文章。
+
+# 备战面试复习总结
+见该 repo 下目录: **面试复习总结 -> 实习复习.md**
+
+# 杂耍demo
+1. [手写轮播图](https://github.com/YxrSadhu/carousel)
+
