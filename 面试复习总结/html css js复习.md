@@ -1,4 +1,4 @@
-# CSS
+#  CSS
 ## css盒模型
 在网页布局中，我们可以将 HTML 标签看成一个个矩形盒子，盒模型就是用来描述这些矩形盒子所占的空间大小。
 
@@ -446,3 +446,17 @@ MVVM 是一种架构模式。应该这样读： M-V-VM，M 是 model 层，只�
 
 ## MVVM 与 MVC 的区别
 两者都是一种设计思想，区别不大，主要就是 MVC 的 controller 演变成了 MVVM 的 ViewModel，这也引发了其最大的区别就是 VM 能使 model 自动同步到 view，不用手动操作 DOM，所以MVVM 就是主要解决了 MVC 中大量的 DOM 操作使页面性能降低、加载速度变慢、影响用户体验等缺点。
+
+## GET 和 POST 的区别
+由于 HTTP 协议的规定和浏览器/服务端的限制，GET 和 POST 有以下区别：
+- GET 请求在浏览器回退时是无害的，但 POST 会再次提交请求
+- GET 请求会被浏览器主动缓存，POST 请求不会
+- GET 请求只能支持 URL 编码，而 POST 请求支持多种编码方式
+- GET 请求参数会被完整地保留在浏览器历史记录里面，POST 请求不会
+- POST 请求可以通过 request body 来传输比 GET 请求更多的参数。因为 GET 请求在 url 中传输的参数有长度限制的
+- 对于参数的数据类型，GET 只接受 ASCII 字符，POST 无限制
+- GET 比 POST 更不安全，因为参数会直接暴露在 URL 上。
+- GET 参数通过 URL 来传递，POST 则会放在 request body 中。
+- GET 请求会产生一个数据包，一次性把 headers 和 data 都发送到服务端。POST 请求则会产生两个数据包，第一次发送 headers，收到 100 continue 的响应后再发送 data 过去。
+
+为什么开头要加由于 HTTP 规范的规定以及浏览器/服务器的限制，因为 GET 请求也可以把参数放在 request body 中，POST 请求也可以把参数放在 url 中，它们本质都是 tcp 连接。只不过这样放置参数的方式有些服务器可能不会处理直接忽略罢了... 而且有些浏览器上 POST 请求也不一定就会产生两个数据包，比如 firefox 就只产生一个数据包。
