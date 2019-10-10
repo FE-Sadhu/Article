@@ -407,7 +407,7 @@ header footer nav main article section 等元素。
 
 ## Object.prototype.toString 可以判断任何类型
 ```js
-function dd(){}
+function dd() {}
 var toString = Object.prototype.toString;
 toString.call(dd);          //[object Function]
 toString.call(new Object);  //[object Object]
@@ -426,3 +426,23 @@ toString.call('abc')        //[object String]
 ### 2 xxx instanceof Array
 ### 3 Object.prototype.toString.call(xxx) === '[object Array]'
 ### 4 xxx.constructor === Array
+
+## 什么是 SPA 单页应用
+SPA 我理解为是一种网站应用的模型，做出来的应用是单页应用，只需要加载一次网页，利用路由原理去变换 url 而并不需要刷新网页(histroy/hash)，动态重写当前页面来处理用户与页面的交互。目前主流框架都采用了 SPA 原则。
+
+优点：
+- 用户无刷新体验
+- 前后端明显分离，后端只负责处理数据提供接口，前端负责页面渲染与交互逻辑
+- 因为只请求一次页面，所以会减轻服务端压力
+- 只需要后端提供同一套 API ，则在不同终端都可以使用这套 API
+- 开发不用以页面为单位，可以更多的采用组件化思想
+
+缺点：
+- 不利于 SEO
+- 对前端开发者有一定的技术要求
+
+## 什么是 MVVM
+MVVM 是一种架构模式。应该这样读： M-V-VM，M 是 model 层，只负责处理数据状态，View 是视图层，只负责处理 UI 展示，VM 是 ViewModel 层，负责映射数据状态与视图间的关系。这种架构模式可以让开发者只需要关注数据处理就行，ViewModel 层会自动帮我们实现数据映射到 DOM 的交互，这就是数据驱动页面的开发方式。现在的主流框架都是采用这种架构模式进行开发的。这种方式可以减少 DOM 操作，也更利于开发者维护开发。当然当状态过多了，也是比较不容易维护的。
+
+## MVVM 与 MVC 的区别
+两者都是一种设计思想，区别不大，主要就是 MVC 的 controller 演变成了 MVVM 的 ViewModel，这也引发了其最大的区别就是 VM 能使 model 自动同步到 view，不用手动操作 DOM，所以MVVM 就是主要解决了 MVC 中大量的 DOM 操作使页面性能降低、加载速度变慢、影响用户体验等缺点。
