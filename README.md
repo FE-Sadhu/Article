@@ -1,5 +1,5 @@
 # 深入JS笔记目录
-1. [深入js之深究ES5规范前后的执行上下文相关](https://github.com/YxrSadhu/Article/issues/5)
+1. [深入js之深究ES6规范前后的执行上下文相关](https://github.com/YxrSadhu/Article/issues/5)
 2. [深入js之内存管理与内存泄漏](https://github.com/YxrSadhu/Article/issues/6)
 3. [内存管理与内存泄漏思考题](https://github.com/YxrSadhu/Article/issues/7)
 4. [深入js之闭包](https://github.com/YxrSadhu/Article/issues/8)
