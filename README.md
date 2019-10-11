@@ -62,4 +62,4 @@
 1. [手写轮播图](https://github.com/YxrSadhu/carousel)
 2. 写个简略 mvvm 框架 -> 见上文 vue title 下文章。
 3. 写个简略 EventBus -> 见上文 vue title 下文章。
-
+4. [html + css 仿写淘宝首页](https://github.com/YxrSadhu/model-taobao-homepage)
