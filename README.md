@@ -41,11 +41,12 @@
    - 好文：1. 没开玩笑：[谢希仁版计网](https://book.douban.com/subject/26960678/) 2. [浏览器工作原理：从 URL 输入到页面展现到底发生了什么？](https://www.jianshu.com/p/d616d887953a)
 
 # vue
-1. [标注图+部分举例聊聊Vue生命周期](https://github.com/YxrSadhu/Article/issues/19)
-2. [通过实现一个小型Vue来学习mvvm原理](https://github.com/YxrSadhu/mini-mvvm)
-3. [通过写个简易Event Bus来学习发布订阅模式](https://github.com/YxrSadhu/EventBus-PubSub)
-4. [用Vue开发仿旅游站webapp项目总结 （上）](https://juejin.im/post/5be54e04f265da611c267b19)
-5. [用Vue开发仿旅游站webapp项目总结 （下）](https://juejin.im/post/5bec0eeef265da61193b65cd)
+1. [标注图 + 部分举例聊聊 Vue 生命周期](https://github.com/YxrSadhu/Article/issues/19)
+2. [通过实现一个小型 Vue 来学习 mvvm 原理](https://github.com/YxrSadhu/mini-mvvm)
+3. [通过写个简易 Event Bus 来学习发布订阅模式](https://github.com/YxrSadhu/EventBus-PubSub)
+4. [用 Vue 开发仿旅游站 webapp 项目总结 （上）](https://juejin.im/post/5be54e04f265da611c267b19)
+5. [用 Vue 开发仿旅游站 webapp 项目总结 （下）](https://juejin.im/post/5bec0eeef265da61193b65cd)
+6. [基于 Vue 开发的音乐项目总结](https://github.com/YxrSadhu/sadhu-music)
 
 # webpack
 1. [webpack初探及核心概念笔记](https://github.com/YxrSadhu/Article/issues/20)

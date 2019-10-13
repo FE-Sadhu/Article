@@ -1,10 +1,29 @@
-## 嘿嘿，被你找到了~
+## sadhu-music
+在线预览地址：[传送门](http://ptuyxr.cn/music/)。
+
+移动端浏览体验更佳。
+
 目前只总结了个人认为值得记录下来的内容：
 
 - 总结了项目开发中遇到的核心问题、解决思路及采用的解决方案。
 - 总结了项目中利用到的两个区域双向联动业务逻辑思路。
+- 总结了播放器音乐播放流程
 
-之后空下来会从头到尾记录下来，争取写成一本友好的小实践书。
+半年内空下来时会从头到尾记录下来，争取写成一本友好的小实践书。
+
+## 技术栈
+- Vue-Cli（Vue 脚手架工具）
+- Vue（核心框架）
+- Vue-Router（页面路由）
+- Vuex（状态管理）
+- ES 6（JavaScript 语言的下一代标准）
+- stylus（CSS 预处理器）
+- Axios（HTTP 请求库）
+- Better-Scroll (处理移动端各种滚动场景需求)
+- FastClick（解决移动端 300ms 点击延迟）
+- flexbox + position 布局 (Flex 是移动端自适应布局神器！！！)
+
+本项目数据均是在线请求 QQ 音乐官方接口获得。（node 端采用 express router 路由代理浏览器端本地接口转发请求真实接口解决跨域问题，本质上是在服务端发送 ajax 请求不受浏览器端同源策略限制。）
 
 ## 所遇问题以及解决方案
 ### 推荐页面应用 better-scroll 的内容区域末尾被隐藏
@@ -76,5 +95,36 @@ third -> 当 scrollY 改变的时候，循环遍历 listHeight，在一次循环
 
 fourth -> 在 touchstart 和 touchmove 的回调中设置 scrollY = this.listHeight[当前字母的 index] 就 ok。
 
+### 播放器内核
 
+播放器内核 player 充分应用了 vuex 管理状态。因为播放器在全局的任何组件中都可以调用出来。
+
+关于播放器，在 vuex 中保存了这些状态：playing(表示正在播放与否)、sequenceList(排序播放列表)、playList(播放歌曲列表)、fullScreen(表示是否展示播放器页面)、currentIndex(当前播放歌曲在播放列表中的索引)、mode(播放模式)
+
+```js
+// ./store/state.js
+export const state = {
+  playing: false, // 播放就是 true
+  fullScreen: false, // 全屏
+  playList: [], // 播放列表
+  sequenceList: [], // 排序播放列表
+  mode: playMode.sequence, // 播放的模式： 顺序或其他的,默认为顺序播放
+  currentIndex: -1, // 当前播放的索引 =》 (控制前进后退播放那些的)
+}
+```
+
+一旦在哪个页面点击了某首歌后，比如在歌手详情页点击了该歌手的第三首歌，那么就会把 3 这个索引和当前歌手的全部歌曲 list 存入 vuex，索引 3 就设置成 currentIndex， list 就设置成 sequenceList 和 playList，然后在 vuex getters 中可以返回个 currentSong, 它的值就是 `playList[currentIndex]` 啦，如下：
+
+```js
+export const currentSong = (state) => {
+  return state.playList[state.currentIndex] || {}
+}
+```
+并且会改变 `fullScreen: true, playing: true;`。 在播放器内部，就会从 vuex 中取出这些值，比如当 fullScreen 为 true 时就 show 出播放器页面。比如在播放器 player 内部会 watch currentSong，当 currentSong 改变的时候就播放歌曲 `audio.url = currentSong.url; audio.play()` 等等。
+
+播放器等于就是完全受 vuex 中数据控制的。以后遇到类似大部分组件都可以用到的组件时，我们也可以用 Vuex 里的数据来控制该组件。
+
+配张主要流程脑图：
+
+![](https://user-gold-cdn.xitu.io/2019/10/13/16dc5a2d57533f4a?w=1336&h=1190&f=png&s=252533)
 
