@@ -47,6 +47,7 @@
 4. [用 Vue 开发仿旅游站 webapp 项目总结 （上）](https://juejin.im/post/5be54e04f265da611c267b19)
 5. [用 Vue 开发仿旅游站 webapp 项目总结 （下）](https://juejin.im/post/5bec0eeef265da61193b65cd)
 6. [基于 Vue 开发的音乐项目总结](https://github.com/YxrSadhu/sadhu-music)
+7. [nextTick源码解析](https://github.com/Ma63d/vue-analysis/issues/6)
 
 # webpack
 1. [webpack初探及核心概念笔记](https://github.com/YxrSadhu/Article/issues/20)
