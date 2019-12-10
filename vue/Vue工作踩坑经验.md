@@ -56,3 +56,66 @@ props: {
 ```
 调试图如下：
 ![](https://user-gold-cdn.xitu.io/2019/12/10/16eee97ae3889bae?w=1898&h=1050&f=png&s=310987)
+
+## $emit 传出多个参数，并且外部组件还要接收额外参数
+
+solution: $event or arguments
+
+见该 [issues](https://github.com/vuejs/vue/issues/5735)
+
+正常情况下的 emit on 传参很简单，如下：
+```js
+// 内部 child 组件
+this.$emit('change', 1)
+
+// 外部
+<child @change="handleChange">
+
+methods: {
+  handleChange(val) {
+    console.log(val) // 就拿到了
+  }
+}
+```
+
+但是我遇到了三种特殊情况
+1. 内部 emit 传多个参时
+2. 内部 emit 传一个参，并且外部额外需要接个自定义参数时
+3. 内部 emit 多个参，外部需要接参
+
+对于第一种：
+```js
+// 子组件
+this.$emit('change', 1, 2, 3, 4)
+// 父组件
+@change='handleChange(arguments)'
+
+methods: {
+  handleChange(inside) {
+    console.log(inside)
+  }
+}
+```
+
+第二种: 
+```js
+// 子
+this.$emit('change', 1)
+// 父
+@change='handleChange($event, userDefined)'
+
+handleChange(inside, outside) {
+  console.log(inside, ' --- ', outside) // 1 --- userDefined
+}
+```
+第三种
+```js
+// 子
+this.$emit('change', 1, 2, 3)
+// 父
+@change='handleChange(arguments, userDefined)'
+
+handleChange(inside, outside) {
+  console.log(inside, ' --- ', outside) // arguments --- userDefined
+}
+```
