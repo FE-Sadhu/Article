@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+    <child-comp v-model="test"></child-comp>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    Vue.component('childComp', {
+      template: '<li @click="handleClick">{{liValue}}</li>',
+      model: {
+        prop: 'liValue',
+        event: 'changeLi'
+      },
+      props: {
+        liValue: {
+          type: Number,
+          default: 1
+        }
+      },
+      data () {
+        return {
+          mutate: this.liValue
+        }
+      },
+      methods: {
+        handleClick() {
+          this.$emit('changeLi', ++this.mutate)
+        }
+      },
+    })
+
+    const app = new Vue({
+      el: '#root',
+      data: {
+        test: 0
+      },
+      watch: {
+        test(val) {
+          console.log('测试子组件中修改，组件 v-model 是否响应：', val)
+        }
+      },
+    })
+  </script>
+</body>
+</html>
