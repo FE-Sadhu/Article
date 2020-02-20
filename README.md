@@ -8,10 +8,10 @@
 <details>
 <summary> leetcode 题解 </summary>
 
-  <details>
-  <summary> 递归专题 </summary>
-    [344. 反转字符串](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
-  </details>
+- 递归专题
+
+  [344. 反转字符串](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
+  
 
 </details>
 
