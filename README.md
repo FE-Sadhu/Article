@@ -1,17 +1,17 @@
-<center style="width: 100%;height:150px;line-height:150px;font-size: 15px; font-weight: bold">持续付出真心，持续武装自己。</center>
+                                                          🧑‍💻
 
-<!-- <div style="text-align: right; font-size: 13px">
-  <p>Sadhu</p>
-  <p>2019.11.01</p>
-</div> -->
+                                                    哟，在写 bug 呀~
+
+                                                                                                  --- Sadhu
+
+
 > Play With Algorithms
 <details>
 <summary> leetcode 题解 </summary>
 
 - 递归专题
-
-  [344. 反转字符串](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
-  [24. 两两交换链表中的节点](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/24.md)
+  - [344. 反转字符串](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
+  - [24. 两两交换链表中的节点](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/24.md)
 
 </details>
 <br/>
