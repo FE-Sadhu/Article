@@ -1,7 +1,7 @@
                                                           🧑‍💻
 
 
-                                                    哟，在写 bug 呀~
+                                                     哟，写 bug 呢~
 
 
                                                                                                   --- Sadhu
@@ -11,12 +11,13 @@
 <details>
 <summary> leetcode 题解 </summary>
 
-- 递归专题
+- 递归专题 （从斐波那契开始都是视频教程，觉得讲得棒哒给个关注三连呀 hhh~）
   - [344. 反转字符串](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
   - [24. 两两交换链表中的节点](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/24.md)
   - [118. 杨辉三角](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/118.md)
   - [119. 杨辉三角②](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/119.md)
   - [206. 反转链表](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/206.md)
+  - [509. 斐波那契数](https://www.bilibili.com/video/av93457350)
 
 </details>
 <br/>
