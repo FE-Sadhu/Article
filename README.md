@@ -19,6 +19,7 @@
   - [206. 反转链表](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/206.md)
   - [509. 斐波那契数](https://www.bilibili.com/video/av93457350)
   - [70. 爬楼梯](https://www.bilibili.com/video/av93668328)
+  - [104. 二叉树的最大深度](https://www.bilibili.com/video/av94012180)
   
 </details>
 <br/>
