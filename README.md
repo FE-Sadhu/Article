@@ -20,6 +20,7 @@
   - [509. 斐波那契数](https://www.bilibili.com/video/av93457350)
   - [70. 爬楼梯](https://www.bilibili.com/video/av93668328)
   - [104. 二叉树的最大深度](https://www.bilibili.com/video/av94012180)
+  - [50. Pow(x, n)](https://www.youtube.com/watch?v=4bEZoMBVUvI) -> (这是 youtube, b 站在审核)
   
 </details>
 <br/>
