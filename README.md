@@ -22,6 +22,7 @@
   - [104. 二叉树的最大深度](https://www.bilibili.com/video/av94012180)
   - [50. Pow(x, n)](https://www.youtube.com/watch?v=4bEZoMBVUvI) -> (这是 youtube, b 站在审核)
   - [21. 合并两个有序链表](https://www.youtube.com/watch?v=tds7Xgr0yIE&feature=youtu.be) -> (这是 youtube, b 站在审核)
+  - [779. 第 k 个语法符号](https://www.youtube.com/watch?v=nHW6C64FV_U) -> (这是 youtube, b 站在审核)
   
 </details>
 <br/>
