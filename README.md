@@ -11,7 +11,7 @@
 <details>
 <summary> leetcode 题解 </summary>
 
-- 递归专题 （从斐波那契开始都是视频教程，觉得讲得棒哒给个关注三连呀 hhh~）
+- 递归专题 （从斐波那契开始都是视频教程。PS: 暂时停更半个多月，先花时间自己二刷完后再录视频哈~）
   - [344. 反转字符串](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
   - [24. 两两交换链表中的节点](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/24.md)
   - [118. 杨辉三角](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/118.md)
@@ -20,10 +20,17 @@
   - [509. 斐波那契数](https://www.bilibili.com/video/av93457350)
   - [70. 爬楼梯](https://www.bilibili.com/video/av93668328)
   - [104. 二叉树的最大深度](https://www.bilibili.com/video/av94012180)
-  - [50. Pow(x, n)](https://www.youtube.com/watch?v=4bEZoMBVUvI) -> (这是 youtube, b 站在审核)
-  - [21. 合并两个有序链表](https://www.youtube.com/watch?v=tds7Xgr0yIE&feature=youtu.be) -> (这是 youtube, b 站在审核)
-  - [779. 第 k 个语法符号](https://www.youtube.com/watch?v=nHW6C64FV_U) -> (这是 youtube, b 站在审核)
-  
+  - [50. Pow(x, n)](https://www.bilibili.com/video/av94273165)
+  - [21. 合并两个有序链表](https://www.bilibili.com/video/av94286403)
+  - [779. 第 k 个语法符号](https://www.bilibili.com/video/av94329242)
+
+- 数据结构 (按照《学习 js 数据结构与算法》这本书来实现的。)
+  - [二叉树(BST、前、中、后、层序遍历的实现)](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/core/BST.js)
+  - [链表](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/core/LinkedList.js)
+  - [队列(含最小优先队列)](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/core/Queue.js)
+  - [栈](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/core/Stack.js)
+  - 对于 js 而言，集合被规范封装成了 Set, 散列表封装成了 Map。
+
 </details>
 <br/>
 
@@ -70,6 +77,14 @@
 - [x] [经常被面试官问到的js数据类型知识你真的懂吗？](https://juejin.im/post/5d030e03518825361817032f)
 - [x] ES6 代码学习注释和思维导图 -> 见该 repo
 - [ ] [近一万字的ES6语法知识点补充](https://juejin.im/post/5c6234f16fb9a049a81fcca5)
+
+</details>
+
+<details>
+<summary> TypeScript </summary>
+
+- [TS 语法（系统教程化 demo 直接看 catTs 目录）](https://github.com/YxrSadhu/TypeScript-demo)
+- [TypeScript 重构 axios 库总结](https://github.com/YxrSadhu/ts-axios)
 
 </details>
 
