@@ -11,7 +11,7 @@
 <details>
 <summary> leetcode 题解 </summary>
 
-- 递归专题 （从斐波那契开始都是视频教程。PS: 暂时停更半个多月，先花时间自己二刷完后再录视频哈~）
+- 递归专题 （从斐波那契开始都是视频教程。PS: 暂时停更视频，想提前看 js 解题转到这个[仓库](https://github.com/YxrSadhu/Data-Structures-and-Algorithms)，查阅 commit。）
   - [344. 反转字符串](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
   - [24. 两两交换链表中的节点](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/24.md)
   - [118. 杨辉三角](https://github.com/YxrSadhu/Data-Structures-and-Algorithms/blob/master/src/summarize/118.md)
