@@ -69,14 +69,14 @@
 - [x] [解读Promise内部实现原理](https://juejin.im/post/5a30193051882503dc53af3c#heading-12)
 - [x] [剖析Promise内部结构，一步一步实现一个完整的、能通过所有Test case的Promise类](https://github.com/xieranmaya/blog/issues/3)
 - [x] [Promise 必知必会（十道题）](https://juejin.im/post/5a04066351882517c416715d)
-- [ ] [从 IIFE 聊到 Babel 带你深入了解前端模块化发展体系](https://juejin.im/post/5cb9e563f265da03712999e8#heading-1)
+- [x] [从 IIFE 聊到 Babel 带你深入了解前端模块化发展体系](https://juejin.im/post/5cb9e563f265da03712999e8#heading-1)
 - [x] [JS MODULE 大战](https://juejin.im/post/5cb74b73e51d456e577f935c)
-- [ ] [AST抽象语法树——最基础的javascript重点知识，99%的人根本不了解](https://segmentfault.com/a/1190000016231512)
-- [ ] [(美团强大大的分享)AST与前端工程化实战(视频)](https://www.bilibili.com/video/av63309539)
+- [x] [AST抽象语法树——最基础的javascript重点知识，99%的人根本不了解](https://segmentfault.com/a/1190000016231512)
+- [x] [(美团强大大的分享)AST与前端工程化实战(视频)](https://www.bilibili.com/video/av63309539)
 - [x] [为什么defineProperty不能检测到数组长度的“变化”](https://juejin.im/post/5b0d0212f265da08da29e50f)
 - [x] [经常被面试官问到的js数据类型知识你真的懂吗？](https://juejin.im/post/5d030e03518825361817032f)
 - [x] ES6 代码学习注释和思维导图 -> 见该 repo
-- [ ] [近一万字的ES6语法知识点补充](https://juejin.im/post/5c6234f16fb9a049a81fcca5)
+- [x] [近一万字的ES6语法知识点补充](https://juejin.im/post/5c6234f16fb9a049a81fcca5)
 
 </details>
 
@@ -93,7 +93,7 @@
 
 - [x] [CSS 常见布局方式](https://juejin.im/post/599970f4518825243a78b9d5)
 - [x] [前端九部的 css 布局](https://www.yuque.com/fe9/basic)
-- [ ] [CSS Conf -《新时代CSS布局》学习总结](https://juejin.im/post/5ce3b30ef265da1b667baf79)
+- [x] [CSS Conf -《新时代CSS布局》学习总结](https://juejin.im/post/5ce3b30ef265da1b667baf79)
 - [x] [CSS & HTML 自测总结](https://github.com/YxrSadhu/Article/blob/master/%E9%9D%A2%E8%AF%95%E5%A4%8D%E4%B9%A0%E6%80%BB%E7%BB%93/html%20css%20js%E5%A4%8D%E4%B9%A0.md)
 
 </details>
@@ -106,7 +106,7 @@
 - [x] [从event loop规范探究javaScript异步及浏览器更新渲染时机](https://github.com/aooy/blog/issues/5)
 - [x] [(包含 node 端)彻底吃透 JavaScript 执行机制](https://juejin.im/post/5d901418518825539312f587)
 - [x] [Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/#level-1-bossfight)
-- [ ] [Sessionstack 的 ceo 写的 how js works 系列(英文)](https://blog.sessionstack.com/@zlatkov)
+- [x] [Sessionstack 的 ceo 写的 how js works 系列(英文)](https://blog.sessionstack.com/@zlatkov)
 - [x] [V8 社区的一些文章](https://v8.js.cn/blog/fast-async/)
 - [x] [(这里面有些试题可以做做)最后一次搞懂 Event Loop](https://juejin.im/post/5cbc0a9cf265da03b11f3505)
 - [x] [自己简单总结 & 思维导图](https://github.com/YxrSadhu/Article/issues/17)
@@ -154,7 +154,7 @@
 <details>
 <summary> 计算机网络 </summary>
 
-- [ ] 图解http
+- [x] 图解http
 - [x] [面试官（9）：可能是全网最全的http面试答案](https://juejin.im/post/5d032b77e51d45777a126183)
 
 </details>
@@ -181,19 +181,19 @@
 
 - [x] [Vue源码阅读前必须知道javascript的基础内容](https://juejin.im/post/5b4ad441f265da0f7d4eeb7a)
 - [x] [总结 vue 工作学习一年经验](https://github.com/sunseekers/Vue)
-- [ ] [Vue 开发必须知道的 36 个技巧](https://juejin.im/post/5d9d386fe51d45784d3f8637)
+- [x] [Vue 开发必须知道的 36 个技巧](https://juejin.im/post/5d9d386fe51d45784d3f8637)
 - [x] [面试必备的13道可以举一反三的Vue面试题](https://juejin.im/post/5d41eec26fb9a06ae439d29f#heading-9)
-- [ ] [Vue经典面试题: Vue.use和Vue.prototype.$xx有血缘关系吗?](https://juejin.im/post/5d15be07e51d4556be5b3a9c?utm_source=gold_browser_extension)
+- [x] [Vue经典面试题: Vue.use和Vue.prototype.$xx有血缘关系吗?](https://juejin.im/post/5d15be07e51d4556be5b3a9c?utm_source=gold_browser_extension)
 - [x] 博文的源码解析书 -> 《深入浅出Vuejs》
 - [x] [不好意思！耽误你的十分钟，让MVVM原理还给你](https://juejin.im/post/5abdd6f6f265da23793c4458)
-- [ ] [前端路由实现](https://juejin.im/post/5ac61da66fb9a028c71eae1b)
+- [x] [前端路由实现](https://juejin.im/post/5ac61da66fb9a028c71eae1b)
 - [x] [实现 event bus（发布订阅）](https://juejin.im/post/5ac2fb886fb9a028b86e328c)
 - [x] [Vue源码详解之nextTick：MutationObserver只是浮云，microtask才是核心！](https://github.com/Ma63d/vue-analysis/issues/6)
 - [x] [解析vue2.0的diff算法](https://github.com/aooy/blog/issues/2)
 - [x] [让虚拟DOM和DOM-diff不再成为你的绊脚石](https://juejin.im/post/5c8e5e4951882545c109ae9c)
-- [ ] [vue插件开发、文档书写、github发布、npm包发布一波流](https://juejin.im/post/5b96586de51d450e7d0984a6)
+- [x] [vue插件开发、文档书写、github发布、npm包发布一波流](https://juejin.im/post/5b96586de51d450e7d0984a6)
 - [ ] [相学长的 vue3 源码分析](https://zhuanlan.zhihu.com/callback)
-- [ ] [尤大 VueConf 3 的演讲视频](https://www.yuque.com/vueconf/2019/gwn1z0)
+- [x] [尤大 VueConf 3 的演讲视频](https://www.yuque.com/vueconf/2019/gwn1z0)
 
 </details>
 
@@ -213,7 +213,7 @@
 <details>
 <summary> 前端安全 </summary>
 
-- [ ] [前端安全知识](https://juejin.im/post/59dc2b7a6fb9a0451869ae3a)
+- [x] [前端安全知识](https://juejin.im/post/59dc2b7a6fb9a0451869ae3a)
 
 </details>
 
@@ -221,18 +221,18 @@
 <summary> 前端工程化 </summary>
 
 - [x] [webpack初探及核心概念笔记](https://github.com/YxrSadhu/Article/issues/20)
-- [ ] [面试必备！webpack 中那些最易混淆的 5 个知识点](https://juejin.im/post/5cede821f265da1bbd4b5630)
-- [ ] [webpack4-用之初体验，一起敲它十一遍](https://juejin.im/post/5adea0106fb9a07a9d6ff6de)
+- [x] [面试必备！webpack 中那些最易混淆的 5 个知识点](https://juejin.im/post/5cede821f265da1bbd4b5630)
+- [x] [webpack4-用之初体验，一起敲它十一遍](https://juejin.im/post/5adea0106fb9a07a9d6ff6de)
 
 </details>
 
 <details>
 <summary> 移动端适配、开发 </summary>
 
-- [ ] [前端基础知识概述 -- 移动端开发的屏幕、图像、字体与布局的兼容适配](https://juejin.im/post/5d70747cf265da03e16897c8)
-- [ ] [关于移动端适配，你必须要知道的](https://juejin.im/post/5cddf289f265da038f77696c)
-- [ ] [移动端适配--meta标签玩的是什么](https://juejin.im/post/5ce1449ff265da1bcd37a8cd)
-- [ ] [Meta标签用法大全](https://www.cnblogs.com/qiumohanyu/p/5431859.html)
+- [x] [前端基础知识概述 -- 移动端开发的屏幕、图像、字体与布局的兼容适配](https://juejin.im/post/5d70747cf265da03e16897c8)
+- [x] [关于移动端适配，你必须要知道的](https://juejin.im/post/5cddf289f265da038f77696c)
+- [x] [移动端适配--meta标签玩的是什么](https://juejin.im/post/5ce1449ff265da1bcd37a8cd)
+- [x] [Meta标签用法大全](https://www.cnblogs.com/qiumohanyu/p/5431859.html)
 
 </details>
 
