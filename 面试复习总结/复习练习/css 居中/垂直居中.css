@@ -1,0 +1,70 @@
+/* 行内元素水平居中 */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.parent1 {
+  width: 100%;
+  height: 100px;
+  background-color: lightblue;
+  /* point */
+  text-align: center;
+
+  /* 垂直居中 */
+  line-height: 100px;
+}
+
+/* 块级元素定宽水平居中 */
+.parent2 {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: lightblue;
+  position: relative; /* 法二 */
+  
+}
+
+/* 法一 */
+.child2 {
+  width: 50px;
+  height: 50px;
+  background-color: lightcoral;
+  /* point */
+  margin: 0 auto;
+}
+/* 法二 */
+.child2 {
+  position: absolute;
+  /* left: calc(50% - 25px); */
+  left: 50%;
+  margin-left: -25px;
+}
+
+/* 块级元素不定宽水平居中 */
+.parent3 {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: lightblue;
+  position: relative; /* 法二 */
+  text-align: center; /* 法三 */
+  /* 法四 */
+  display: flex;
+  justify-content: center;
+}
+/* table + margin */
+.child3 {
+  display: table;
+  margin: 0 auto;
+}
+
+.child3 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.child3 {
+  display: inline-block;
+}
