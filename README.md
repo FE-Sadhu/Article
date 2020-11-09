@@ -253,7 +253,7 @@
 - [x] [大揭秘！“恐怖”的阿里一面，我究竟想问什么](https://juejin.im/post/5d4cd42a6fb9a06aea618155?utm_source=gold_browser_extension)
 - [x] [前端校招该考察什么？一个面试官的思考(腾讯老教授)](https://juejin.im/post/59af8a886fb9a024932244ea)
 - [x] [如何拿到9家大厂的校招offer](https://juejin.im/post/5d70ff205188253e4b2f07bd?utm_source=gold_browser_extension) 
-
+- [2020 年 10 月面试总结](https://github.com/YxrSadhu/Article/blob/master/%E9%9D%A2%E8%AF%95%E5%A4%8D%E4%B9%A0%E6%80%BB%E7%BB%93/%E6%80%BB%E7%BB%93%E6%8F%90%E7%BA%B2.md)
 </details>
 
 <details>
