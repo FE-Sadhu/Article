@@ -24,3 +24,6 @@
 任何代理工具默认只代理 HTTP,不代理终端。若想代理终端，在 V2RayX 设置中点击 `Copy Http Proxy Shell export line`，赋值的内容就是 `export http_proxy="http://127.0.0.1:8001"; export HTTP_PROXY="http://127.0.0.1:8001"; export https_proxy="http://127.0.0.1:8001"; export HTTPS_PROXY="http://127.0.0.1:8001"`。
 然后配置终端的环境变量， `iTerm` -> `~/.zshrc`,  `bash` -> `~/.bash_profile`
 可以用 `curl www.google.com` 验证。
+
+#### 查看端口占用情况
+MacOs: `lsof` 列举所有端口占用列表, `lsof | less` 分页展示， `lsof -i :8081` 查看 8081 端口有没有被占用，`kill -9 进程ID(PID)` 则是杀掉该 pid 进程。
