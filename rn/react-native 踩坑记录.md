@@ -27,3 +27,11 @@
 
 #### 查看端口占用情况
 MacOs: `lsof` 列举所有端口占用列表, `lsof | less` 分页展示， `lsof -i :8081` 查看 8081 端口有没有被占用，`kill -9 进程ID(PID)` 则是杀掉该 pid 进程。
+
+#### packager server
+问题日志： `No bundle URL present.Make sure you're running a packager server or have included a .jsbundle`
+
+是由于 VPN 代理工具是全局模式，导致了之前可以正常连接到本地的packager的server，由于全局网络代理，从而需要绕道国外服务器，再去连接本地，所以无法正常访问了。
+
+解决方法就是把全局模式改为自动模式就好，或者关了。
+
