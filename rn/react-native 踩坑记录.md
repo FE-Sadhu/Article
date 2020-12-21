@@ -19,3 +19,8 @@
 所以解决方法就是：加个 `--unsafe-perm` 参数，让 npm 运行时不切换为 nobody 用户上，即使是 root。
 
 `sudo npm install -g react-devtools --unsafe-perm` 
+
+#### V2RayX 终端设置代理
+任何代理工具默认只代理 HTTP,不代理终端。若想代理终端，在 V2RayX 设置中点击 `Copy Http Proxy Shell export line`，赋值的内容就是 `export http_proxy="http://127.0.0.1:8001"; export HTTP_PROXY="http://127.0.0.1:8001"; export https_proxy="http://127.0.0.1:8001"; export HTTPS_PROXY="http://127.0.0.1:8001"`。
+然后配置终端的环境变量， `iTerm` -> `~/.zshrc`,  `bash` -> `~/.bash_profile`
+可以用 `curl www.google.com` 验证。
