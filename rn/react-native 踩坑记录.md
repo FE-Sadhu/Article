@@ -35,3 +35,35 @@ MacOs: `lsof` 列举所有端口占用列表, `lsof | less` 分页展示， `lso
 
 解决方法就是把全局模式改为自动模式就好，或者关了。
 
+#### 这咋描述
+1.
+> /Users/sadhu/Desktop/momoko/ios/momoko.xcodeproj Building for iOS Simulator, but the linked and embedded framework 'icare_obj.framework' was built for iOS.
+和
+2. 
+> /Users/sadhu/Desktop/momoko/ios/momoko.xcodeproj Building for iOS Simulator, but the linked library 'libwifi_voice.a' was built for iOS.
+
+解决办法：在 Xcode 中点击 project 名字 -> `build settings` -> 搜索 `validate` 把 `Validate Workspace` 设为 `Yes`。
+
+3. 
+> momoko/ios/Pods/Target Support Files/Pods-momoko/Pods-momoko.debug.xcconfig: unable to open file (in target "momoko" in project "momoko")
+
+解决办法：一般这种情况是下载别人的 RN 应用，重新 `pod install` 下安装好依赖
+
+#### Mac 网络监视器
+假如终端在下载 github 的东西，下载时间比较长，可以在 Mac 活动监视器的网络监视器中搜索 `git` 查看 `git-remote-https` 的下载速度，也可以在 `https://api.github.com/repos/项目名/包名`，搜索 `Size` 字段查看包大小。
+
+当然，网络监视器监视所有本地的网络交互，也可以查看其它，比如梯子。
+
+#### npm install 和 yarn install
+这两个的区别
+
+#### react navigation 4.x 生命周期事件
+就 4 个顾名思义的事件： willFocus、didFocus、willBlur、didBlur
+注意点：
+页面入栈：被覆盖页面触发 willBlur 和 didBlur 事件
+页面出栈：出栈页面的 componentWillUnmount 触发，willBlur 不会触发。
+
+页面生命周期与 react navigation 生命周期事件的关系：
+按顺序读：
+一个包含 页面 A 和 B 的 StackNavigator ，当跳转到 A 时，componentDidMount 方法会被调用； 当跳转到 B 时，componentDidMount 方法也会被调用，但是 A 依然在堆栈中保持 被加载状态，他的 componentWillUnMount 也不会被调用。
+当从 B 跳转到 A，B的 componentWillUnmount 方法会被调用，但是 A 的 componentDidMount方法不会被调用，应为此时 A 依然是被加载状态。
