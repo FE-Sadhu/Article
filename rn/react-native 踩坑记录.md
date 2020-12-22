@@ -57,7 +57,8 @@ MacOs: `lsof` 列举所有端口占用列表, `lsof | less` 分页展示， `lso
 #### npm install 和 yarn install
 这两个的区别
 
-#### react navigation 4.x 生命周期事件
+#### react navigation 4.x 
+##### 生命周期事件
 就 4 个顾名思义的事件： willFocus、didFocus、willBlur、didBlur
 注意点：
 页面入栈：被覆盖页面触发 willBlur 和 didBlur 事件
@@ -67,3 +68,9 @@ MacOs: `lsof` 列举所有端口占用列表, `lsof | less` 分页展示， `lso
 按顺序读：
 一个包含 页面 A 和 B 的 StackNavigator ，当跳转到 A 时，componentDidMount 方法会被调用； 当跳转到 B 时，componentDidMount 方法也会被调用，但是 A 依然在堆栈中保持 被加载状态，他的 componentWillUnMount 也不会被调用。
 当从 B 跳转到 A，B的 componentWillUnmount 方法会被调用，但是 A 的 componentDidMount方法不会被调用，应为此时 A 依然是被加载状态。
+
+##### withNavigation 高阶组件：
+
+当一个组件 A 想要访问到使用它那个组件 B 的 navigator 对象，并且这个组件未在路由初始化时注册，那么在 export 出这个组件的时候可以导出 `withNavigation(组件A)` 包裹组件，`withNavigation()` 方法的结果就是一个组件(wrapper 组件)，在组件 B 中使用的实际上是这个包裹组件。
+
+此时在组件 A 中就可以通过 props 访问到组件 B 的 navigator 对象了 （this.props.navigation.xxx）
