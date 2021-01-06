@@ -65,9 +65,11 @@ MacOs: `lsof` 列举所有端口占用列表, `lsof | less` 分页展示， `lso
 页面出栈：出栈页面的 componentWillUnmount 触发，willBlur 不会触发。
 
 页面生命周期与 react navigation 生命周期事件的关系：
-按顺序读：
+1. 按顺序读：
 一个包含 页面 A 和 B 的 StackNavigator ，当跳转到 A 时，componentDidMount 方法会被调用； 当跳转到 B 时，componentDidMount 方法也会被调用，但是 A 依然在堆栈中保持 被加载状态，他的 componentWillUnMount 也不会被调用。
 当从 B 跳转到 A，B的 componentWillUnmount 方法会被调用，但是 A 的 componentDidMount方法不会被调用，应为此时 A 依然是被加载状态。
+
+2. componentDidMount 的触发时机比 willFocus 快。
 
 ##### withNavigation 高阶组件：
 
