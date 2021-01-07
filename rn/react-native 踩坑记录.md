@@ -76,3 +76,6 @@ MacOs: `lsof` 列举所有端口占用列表, `lsof | less` 分页展示， `lso
 当一个组件 A 想要访问到使用它那个组件 B 的 navigator 对象，并且这个组件未在路由初始化时注册，那么在 export 出这个组件的时候可以导出 `withNavigation(组件A)` 包裹组件，`withNavigation()` 方法的结果就是一个组件(wrapper 组件)，在组件 B 中使用的实际上是这个包裹组件。
 
 此时在组件 A 中就可以通过 props 访问到组件 B 的 navigator 对象了 （this.props.navigation.xxx）
+
+## yarn 有时候装的依赖太大
+ yarn 一段时间内没装好这个包的话，会直接报网络问题请 retry 的错。可以加个 yarn add xxx --network-timeout 100000。
