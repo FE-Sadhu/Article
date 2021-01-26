@@ -79,3 +79,6 @@ MacOs: `lsof` 列举所有端口占用列表, `lsof | less` 分页展示， `lso
 
 ## yarn 有时候装的依赖太大
  yarn 一段时间内没装好这个包的话，会直接报网络问题请 retry 的错。可以加个 yarn add xxx --network-timeout 100000。
+
+## 构建工具的缓存
+当引入一个依赖库，但是构建工具还是对某些 package 使用了缓存去构建的话，会导致引入的包无效。可以在重新构建项目时清除缓存，如 RN 里 `npm start -- --reset-cache`。
