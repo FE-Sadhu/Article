@@ -1,10 +1,10 @@
-                                                          🧑‍💻
+                                                  🧑‍💻
 
 
-                                                     哟，写 bug 呢~
+                                             哟，写 bug 呢~
 
 
-                                                                                                  --- Sadhu
+                                                                                      --- Sadhu
 
 
 > Play With Algorithms
@@ -224,6 +224,7 @@
 - [x] [webpack初探及核心概念笔记](https://github.com/YxrSadhu/Article/issues/20)
 - [x] [面试必备！webpack 中那些最易混淆的 5 个知识点](https://juejin.im/post/5cede821f265da1bbd4b5630)
 - [x] [webpack4-用之初体验，一起敲它十一遍](https://juejin.im/post/5adea0106fb9a07a9d6ff6de)
+- [x] [build a react with ts project from scratch](https://github.com/YxrSadhu/react-ts-build-from-scratch)
 
 </details>
 
