@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/YxrSadhu/Article#readme",
   "dependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.21"
   }
 }
