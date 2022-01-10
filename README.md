@@ -1,8 +1,9 @@
 <p>吹灭读书灯，一身都是月。<p />
 
 #### 2021
+- [Monorepo 策略与方案选型小记](https://github.com/FE-Sadhu/Article/issues/24)
 - [TypeScript 实践与总结](https://github.com/FE-Sadhu/TypeScript-demo)
-- [一步步搭建起 React + TS 开发环境（Webpack 5.x、Babel 7.x、React 17.x、TS 4.x）](https://github.com/YxrSadhu/react-ts-build-from-scratch) --> 搭完了，欠篇文章，感兴趣先看仓库 commit
+- [搭建 React + TS 开发环境（Webpack 5.x、Babel 7.x、React 17.x、TS 4.x）](https://github.com/FE-Sadhu/Article/issues/25)
 
 #### 2020
 - [造个渲染器(vnode、patch、diff)](https://github.com/YxrSadhu/Renderer) 
