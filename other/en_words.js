@@ -3,7 +3,9 @@ const words_2022 = [
   "instant",
   "direct",
   "direction",
-  "ideally"
+  "ideally",
+  "Manipulation",
+  "manual"
 ];
 
 console.log(`${words_2022.length}/1000`);
