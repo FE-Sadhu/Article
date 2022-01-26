@@ -5,7 +5,9 @@ const words_2022 = [
   "direction",
   "ideally",
   "Manipulation",
-  "manual"
+  "manual",
+  "observe",
+  "obey"
 ];
 
 console.log(`${words_2022.length}/1000`);
