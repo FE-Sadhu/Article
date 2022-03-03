@@ -18,7 +18,8 @@ const sentences_2022 = [
   "Victory is in having done your best. If you've done your best, you've won.",
   "A ship is safe in harbor,but that's not what ships are for.",
   "Shall we go for lunch now?",
-  "Always believe in yourself. Do this and no matter where you are, you will have nothing to fear."
+  "Always believe in yourself. Do this and no matter where you are, you will have nothing to fear.",
+  "A leader is a dealer in hope."
 ]
 
 console.log(`${words_2022.length}/1000`);
