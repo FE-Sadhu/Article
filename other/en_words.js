@@ -19,7 +19,8 @@ const sentences_2022 = [
   "A ship is safe in harbor,but that's not what ships are for.",
   "Shall we go for lunch now?",
   "Always believe in yourself. Do this and no matter where you are, you will have nothing to fear.",
-  "A leader is a dealer in hope."
+  "A leader is a dealer in hope.",
+  "The key is not the will to win. Everybody has that. It is the will to prepare to win, and that is important."
 ]
 
 console.log(`${words_2022.length}/1000`);
