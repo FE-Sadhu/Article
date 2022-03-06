@@ -20,7 +20,8 @@ const sentences_2022 = [
   "Shall we go for lunch now?",
   "Always believe in yourself. Do this and no matter where you are, you will have nothing to fear.",
   "A leader is a dealer in hope.",
-  "The key is not the will to win. Everybody has that. It is the will to prepare to win, and that is important."
+  "The key is not the will to win. Everybody has that. It is the will to prepare to win, and that is important.",
+  "The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for"
 ]
 
 console.log(`${words_2022.length}/1000`);
