@@ -22,7 +22,8 @@ const words_2022 = [
   "September",
   "October",
   "November",
-  "December"
+  "December",
+  "kick off"
 ];
 
 const sentences_2022 = [
