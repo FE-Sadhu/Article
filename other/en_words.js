@@ -23,7 +23,11 @@ const words_2022 = [
   "October",
   "November",
   "December",
-  "kick off"
+  "kick off",
+  "invalidate",
+  "deliberately",
+  "reserve",
+  "reserved"
 ];
 
 const sentences_2022 = [
@@ -36,7 +40,8 @@ const sentences_2022 = [
   "The key is not the will to win. Everybody has that. It is the will to prepare to win, and that is important.",
   "The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for",
   "The beauty of a woman is not in the clothes she wears, the figure that she carries or the way she combs her hair.",
-  "Doubt is the key to knowledge."
+  "Doubt is the key to knowledge.",
+  "Books must be read as deliberately and reservedly as they are written."
 ]
 
 console.log(`${words_2022.length}/1000`);
