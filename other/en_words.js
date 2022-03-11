@@ -28,7 +28,8 @@ const words_2022 = [
   "deliberately",
   "reserve",
   "reserved",
-  "arena"
+  "arena",
+  "strength"
 ];
 
 const sentences_2022 = [
@@ -43,7 +44,8 @@ const sentences_2022 = [
   "The beauty of a woman is not in the clothes she wears, the figure that she carries or the way she combs her hair.",
   "Doubt is the key to knowledge.",
   "Books must be read as deliberately and reservedly as they are written.",
-  "The sidelines are not where you want to live your life. The world needs you in the arena."
+  "The sidelines are not where you want to live your life. The world needs you in the arena.",
+  "What makes you different or weird, that's your strength."
 ]
 
 console.log(`${words_2022.length}/1000`);
