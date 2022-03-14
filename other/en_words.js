@@ -30,7 +30,8 @@ const words_2022 = [
   "reserved",
   "arena",
   "strength",
-  "notion"
+  "notion",
+  "discard"
 ];
 
 const sentences_2022 = [
@@ -47,7 +48,8 @@ const sentences_2022 = [
   "Books must be read as deliberately and reservedly as they are written.",
   "The sidelines are not where you want to live your life. The world needs you in the arena.",
   "What makes you different or weird, that's your strength.",
-  "There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature."
+  "There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.",
+  "True love is like a fine wine, the older the better."
 ]
 
 console.log(`${words_2022.length}/1000`);
