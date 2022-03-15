@@ -31,7 +31,8 @@ const words_2022 = [
   "arena",
   "strength",
   "notion",
-  "discard"
+  "discard",
+  "spirit"
 ];
 
 const sentences_2022 = [
