@@ -32,7 +32,9 @@ const words_2022 = [
   "strength",
   "notion",
   "discard",
-  "spirit"
+  "spirit",
+  "seek",
+  "paradise"
 ];
 
 const sentences_2022 = [
@@ -50,7 +52,8 @@ const sentences_2022 = [
   "The sidelines are not where you want to live your life. The world needs you in the arena.",
   "What makes you different or weird, that's your strength.",
   "There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.",
-  "True love is like a fine wine, the older the better."
+  "True love is like a fine wine, the older the better.",
+  "If we seek paradise outside ourselves, we cannot have paradise in our hearts."
 ]
 
 console.log(`${words_2022.length}/1000`);
