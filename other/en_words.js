@@ -53,7 +53,8 @@ const sentences_2022 = [
   "What makes you different or weird, that's your strength.",
   "There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.",
   "True love is like a fine wine, the older the better.",
-  "If we seek paradise outside ourselves, we cannot have paradise in our hearts."
+  "If we seek paradise outside ourselves, we cannot have paradise in our hearts.",
+  "Before you are a leader, success is all about growing yourself. When you become a leader, success is all about growing others."
 ]
 
 console.log(`${words_2022.length}/1000`);
