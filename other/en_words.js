@@ -56,7 +56,8 @@ const sentences_2022 = [
   "True love is like a fine wine, the older the better.",
   "If we seek paradise outside ourselves, we cannot have paradise in our hearts.",
   "Before you are a leader, success is all about growing yourself. When you become a leader, success is all about growing others.",
-  "He who has great power should use it lightly."
+  "He who has great power should use it lightly.",
+  "The most important thing a father can do for his children is to love their mother."
 ]
 
 console.log(`${words_2022.length}/1000`);
