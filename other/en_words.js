@@ -39,7 +39,8 @@ const words_2022 = [
   "merely",
   "exits",
   "entrances",
-  "sideline"
+  "sideline",
+  "happen to"
 ];
 
 const sentences_2022 = [
@@ -62,7 +63,8 @@ const sentences_2022 = [
   "Before you are a leader, success is all about growing yourself. When you become a leader, success is all about growing others.",
   "He who has great power should use it lightly.",
   "The most important thing a father can do for his children is to love their mother.",
-  "All the world's a stage, and all the men and women merely players. They have their exits and their entrances; and one man in his time plays many parts."
+  "All the world's a stage, and all the men and women merely players. They have their exits and their entrances; and one man in his time plays many parts.",
+  "People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone."
 ]
 
 console.log(`${words_2022.length}/1000`);
