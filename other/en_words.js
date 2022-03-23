@@ -40,7 +40,8 @@ const words_2022 = [
   "exits",
   "entrances",
   "sideline",
-  "happen to"
+  "happen to",
+  "industrious"
 ];
 
 const sentences_2022 = [
@@ -64,7 +65,8 @@ const sentences_2022 = [
   "He who has great power should use it lightly.",
   "The most important thing a father can do for his children is to love their mother.",
   "All the world's a stage, and all the men and women merely players. They have their exits and their entrances; and one man in his time plays many parts.",
-  "People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone."
+  "People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone.",
+  "It is not enough to be industrious, so are the ants. What are you industrious for?"
 ]
 
 console.log(`${words_2022.length}/1000`);
