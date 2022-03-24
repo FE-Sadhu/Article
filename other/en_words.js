@@ -66,7 +66,8 @@ const sentences_2022 = [
   "The most important thing a father can do for his children is to love their mother.",
   "All the world's a stage, and all the men and women merely players. They have their exits and their entrances; and one man in his time plays many parts.",
   "People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone.",
-  "It is not enough to be industrious, so are the ants. What are you industrious for?"
+  "It is not enough to be industrious, so are the ants. What are you industrious for?",
+  "A great man is always willing to be little."
 ]
 
 console.log(`${words_2022.length}/1000`);
