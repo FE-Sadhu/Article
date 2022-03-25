@@ -41,7 +41,10 @@ const words_2022 = [
   "entrances",
   "sideline",
   "happen to",
-  "industrious"
+  "industrious",
+  "revert",
+  "luxury",
+  "otherwise"
 ];
 
 const sentences_2022 = [
@@ -67,7 +70,8 @@ const sentences_2022 = [
   "All the world's a stage, and all the men and women merely players. They have their exits and their entrances; and one man in his time plays many parts.",
   "People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone.",
   "It is not enough to be industrious, so are the ants. What are you industrious for?",
-  "A great man is always willing to be little."
+  "A great man is always willing to be little.",
+  "Luxury must be comfortable, otherwise it is not luxury."
 ]
 
 console.log(`${words_2022.length}/1000`);
