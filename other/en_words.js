@@ -71,7 +71,8 @@ const sentences_2022 = [
   "People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone.",
   "It is not enough to be industrious, so are the ants. What are you industrious for?",
   "A great man is always willing to be little.",
-  "Luxury must be comfortable, otherwise it is not luxury."
+  "Luxury must be comfortable, otherwise it is not luxury.",
+  "What would it be like to swing on a star, or walk on a cloud? Would it be anything like what I feel whenever you are near?"
 ]
 
 console.log(`${words_2022.length}/1000`);
