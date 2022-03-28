@@ -44,7 +44,14 @@ const words_2022 = [
   "industrious",
   "revert",
   "luxury",
-  "otherwise"
+  "otherwise",
+  "budget",
+  "restore",
+  "renew",
+  "revive",
+  "reclaim",
+  "redeem",
+  "poise"
 ];
 
 const sentences_2022 = [
@@ -72,7 +79,8 @@ const sentences_2022 = [
   "It is not enough to be industrious, so are the ants. What are you industrious for?",
   "A great man is always willing to be little.",
   "Luxury must be comfortable, otherwise it is not luxury.",
-  "What would it be like to swing on a star, or walk on a cloud? Would it be anything like what I feel whenever you are near?"
+  "What would it be like to swing on a star, or walk on a cloud? Would it be anything like what I feel whenever you are near?",
+  "For beautiful eyes, look for the good in others; for beautiful lips, speak only words of kindness; and for poise, walk with the knowledge that you are never alone."
 ]
 
 console.log(`${words_2022.length}/1000`);
