@@ -46,11 +46,11 @@ const words_2022 = [
   "luxury",
   "otherwise",
   "budget",
-  "restore",
-  "renew",
-  "revive",
-  "reclaim",
-  "redeem",
+  "restore", // vi. 修复 恢复 归还   restored 精力充沛
+  "renew", // vi. 重新开始、复兴    renewed 更新的、复兴的、重建的
+  "revive", // vi. 苏醒、复活  revived 重生的
+  "reclaim", // vi. 开垦、回收、纠正、教化  reclaimed 回收的、再造的
+  "redeem", // vi. 赎回、挽回、补偿   redeemed 救赎的
   "poise"
 ];
 
@@ -80,7 +80,8 @@ const sentences_2022 = [
   "A great man is always willing to be little.",
   "Luxury must be comfortable, otherwise it is not luxury.",
   "What would it be like to swing on a star, or walk on a cloud? Would it be anything like what I feel whenever you are near?",
-  "For beautiful eyes, look for the good in others; for beautiful lips, speak only words of kindness; and for poise, walk with the knowledge that you are never alone."
+  "For beautiful eyes, look for the good in others; for beautiful lips, speak only words of kindness; and for poise, walk with the knowledge that you are never alone.",
+  "Life isn't about waiting for the storm to pass. It's about learning to dance in the rain."
 ]
 
 console.log(`${words_2022.length}/1000`);
