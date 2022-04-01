@@ -53,7 +53,8 @@ const words_2022 = [
   "redeem", // vi. 赎回、挽回、补偿   redeemed 救赎的
   "poise",
   "youth",
-  "matter"
+  "matter",
+  "detect"
 ];
 
 const sentences_2022 = [
