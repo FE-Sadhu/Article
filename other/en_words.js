@@ -54,7 +54,9 @@ const words_2022 = [
   "poise",
   "youth",
   "matter",
-  "detect"
+  "detect",
+  "boldness",
+  "bold"
 ];
 
 const sentences_2022 = [
@@ -85,7 +87,8 @@ const sentences_2022 = [
   "What would it be like to swing on a star, or walk on a cloud? Would it be anything like what I feel whenever you are near?",
   "For beautiful eyes, look for the good in others; for beautiful lips, speak only words of kindness; and for poise, walk with the knowledge that you are never alone.",
   "Life isn't about waiting for the storm to pass. It's about learning to dance in the rain.",
-  "Youth is a quality, not a matter of circumstances."
+  "Youth is a quality, not a matter of circumstances.",
+  "Whatever you can do, or dream you can, begin it. Boldness has genius, power and magic in it."
 ]
 
 console.log(`${words_2022.length}/1000`);
