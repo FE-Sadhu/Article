@@ -88,7 +88,8 @@ const sentences_2022 = [
   "For beautiful eyes, look for the good in others; for beautiful lips, speak only words of kindness; and for poise, walk with the knowledge that you are never alone.",
   "Life isn't about waiting for the storm to pass. It's about learning to dance in the rain.",
   "Youth is a quality, not a matter of circumstances.",
-  "Whatever you can do, or dream you can, begin it. Boldness has genius, power and magic in it."
+  "Whatever you can do, or dream you can, begin it. Boldness has genius, power and magic in it.",
+  "The ones that love us never really leave us"
 ]
 
 console.log(`${words_2022.length}/1000`);
