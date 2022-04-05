@@ -56,7 +56,8 @@ const words_2022 = [
   "matter",
   "detect",
   "boldness",
-  "bold"
+  "bold",
+  "opposite"
 ];
 
 const sentences_2022 = [
@@ -89,7 +90,8 @@ const sentences_2022 = [
   "Life isn't about waiting for the storm to pass. It's about learning to dance in the rain.",
   "Youth is a quality, not a matter of circumstances.",
   "Whatever you can do, or dream you can, begin it. Boldness has genius, power and magic in it.",
-  "The ones that love us never really leave us"
+  "The ones that love us never really leave us",
+  "Death is not the opposite of life, but the part of it."
 ]
 
 console.log(`${words_2022.length}/1000`);
