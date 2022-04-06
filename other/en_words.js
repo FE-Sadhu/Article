@@ -57,7 +57,8 @@ const words_2022 = [
   "detect",
   "boldness",
   "bold",
-  "opposite"
+  "opposite",
+  "fatal"
 ];
 
 const sentences_2022 = [
@@ -91,7 +92,8 @@ const sentences_2022 = [
   "Youth is a quality, not a matter of circumstances.",
   "Whatever you can do, or dream you can, begin it. Boldness has genius, power and magic in it.",
   "The ones that love us never really leave us",
-  "Death is not the opposite of life, but the part of it."
+  "Death is not the opposite of life, but the part of it.",
+  "Failure is not fatal, but failure to change might be."
 ]
 
 console.log(`${words_2022.length}/1000`);
