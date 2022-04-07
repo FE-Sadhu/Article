@@ -93,7 +93,8 @@ const sentences_2022 = [
   "Whatever you can do, or dream you can, begin it. Boldness has genius, power and magic in it.",
   "The ones that love us never really leave us",
   "Death is not the opposite of life, but the part of it.",
-  "Failure is not fatal, but failure to change might be."
+  "Failure is not fatal, but failure to change might be.",
+  "The empty vessels make the greatest sound."
 ]
 
 console.log(`${words_2022.length}/1000`);
