@@ -58,7 +58,8 @@ const words_2022 = [
   "boldness",
   "bold",
   "opposite",
-  "fatal"
+  "fatal",
+  "prune"
 ];
 
 const sentences_2022 = [
@@ -94,7 +95,8 @@ const sentences_2022 = [
   "The ones that love us never really leave us",
   "Death is not the opposite of life, but the part of it.",
   "Failure is not fatal, but failure to change might be.",
-  "The empty vessels make the greatest sound."
+  "The empty vessels make the greatest sound.",
+  "Natural abilities are like natural plants that need pruning by study."
 ]
 
 console.log(`${words_2022.length}/1000`);
