@@ -59,7 +59,9 @@ const words_2022 = [
   "bold",
   "opposite",
   "fatal",
-  "prune"
+  "prune",
+  "perfume",
+  "Personality"
 ];
 
 const sentences_2022 = [
@@ -96,7 +98,8 @@ const sentences_2022 = [
   "Death is not the opposite of life, but the part of it.",
   "Failure is not fatal, but failure to change might be.",
   "The empty vessels make the greatest sound.",
-  "Natural abilities are like natural plants that need pruning by study."
+  "Natural abilities are like natural plants that need pruning by study.",
+  "Personality is to man what perfume is to a flower."
 ]
 
 console.log(`${words_2022.length}/1000`);
