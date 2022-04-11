@@ -61,7 +61,8 @@ const words_2022 = [
   "fatal",
   "prune",
   "perfume",
-  "Personality"
+  "Personality",
+  "predictable"
 ];
 
 const sentences_2022 = [
@@ -99,7 +100,8 @@ const sentences_2022 = [
   "Failure is not fatal, but failure to change might be.",
   "The empty vessels make the greatest sound.",
   "Natural abilities are like natural plants that need pruning by study.",
-  "Personality is to man what perfume is to a flower."
+  "Personality is to man what perfume is to a flower.",
+  "Education is what remains after one has forgotten everything he learned in school."
 ]
 
 console.log(`${words_2022.length}/1000`);
