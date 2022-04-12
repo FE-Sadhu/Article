@@ -62,7 +62,17 @@ const words_2022 = [
   "prune",
   "perfume",
   "Personality",
-  "predictable"
+  "predictable",
+  "forecast",
+  "strive",
+  "constructive",
+  "additional",
+  "In addition to",
+  "requirement",
+  "ordinary",
+  "extraordinary",
+  "perseverance",
+  "attain"
 ];
 
 const sentences_2022 = [
@@ -101,7 +111,8 @@ const sentences_2022 = [
   "The empty vessels make the greatest sound.",
   "Natural abilities are like natural plants that need pruning by study.",
   "Personality is to man what perfume is to a flower.",
-  "Education is what remains after one has forgotten everything he learned in school."
+  "Education is what remains after one has forgotten everything he learned in school.",
+  "With ordinary talent and extraordinary perseverance, all things are attainable."
 ]
 
 console.log(`${words_2022.length}/1000`);
