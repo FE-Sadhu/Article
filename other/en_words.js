@@ -112,7 +112,8 @@ const sentences_2022 = [
   "Natural abilities are like natural plants that need pruning by study.",
   "Personality is to man what perfume is to a flower.",
   "Education is what remains after one has forgotten everything he learned in school.",
-  "With ordinary talent and extraordinary perseverance, all things are attainable."
+  "With ordinary talent and extraordinary perseverance, all things are attainable.",
+  "Activity is the only road to knowledge."
 ]
 
 console.log(`${words_2022.length}/1000`);

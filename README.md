@@ -1,4 +1,4 @@
-<p>吹灭读书灯，一身都是月。<p />
+<p>Doubt is the key to knowledge.<p />
 
 #### 2022
 - [Mobx 源码与设计思想](https://github.com/FE-Sadhu/Article/issues/27)
