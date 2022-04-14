@@ -72,7 +72,14 @@ const words_2022 = [
   "ordinary",
   "extraordinary",
   "perseverance",
-  "attain"
+  "attain",
+  "ecosystem",
+  "addons",
+  "essential",
+  "fundamental",
+  "internal",
+  "compose",
+  "compose out",
 ];
 
 const sentences_2022 = [
