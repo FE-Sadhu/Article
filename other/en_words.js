@@ -120,7 +120,8 @@ const sentences_2022 = [
   "Personality is to man what perfume is to a flower.",
   "Education is what remains after one has forgotten everything he learned in school.",
   "With ordinary talent and extraordinary perseverance, all things are attainable.",
-  "Activity is the only road to knowledge."
+  "Activity is the only road to knowledge.",
+  "Wise men speak because they have something to say; fools because they have to say something."
 ]
 
 console.log(`${words_2022.length}/1000`);
