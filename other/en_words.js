@@ -80,6 +80,14 @@ const words_2022 = [
   "internal",
   "compose",
   "compose out",
+  "valuable",
+  "advantage",
+  "take advantage of",
+  "integration",
+  "reproduce",
+  "abstraction",
+  "pattern",
+  "assume"
 ];
 
 const sentences_2022 = [
