@@ -87,7 +87,8 @@ const words_2022 = [
   "reproduce",
   "abstraction",
   "pattern",
-  "assume"
+  "assume",
+  "trade-off"
 ];
 
 const sentences_2022 = [
