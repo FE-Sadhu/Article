@@ -131,7 +131,8 @@ const sentences_2022 = [
   "Education is what remains after one has forgotten everything he learned in school.",
   "With ordinary talent and extraordinary perseverance, all things are attainable.",
   "Activity is the only road to knowledge.",
-  "Wise men speak because they have something to say; fools because they have to say something."
+  "Wise men speak because they have something to say; fools because they have to say something.",
+  "Beauty is when you can appreciate yourself. When you love yourself, that's when you are most beautiful."
 ]
 
 console.log(`${words_2022.length}/1000`);
