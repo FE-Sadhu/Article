@@ -89,7 +89,15 @@ const words_2022 = [
   "pattern",
   "assume",
   "trade-off",
-  "in terms of"
+  "in terms of",
+  "demonstrates",
+  "as well as",
+  "concise",
+  "efficiently",
+  "terminology",
+  "standalone",
+  "briefly",
+  "subtract"
 ];
 
 const sentences_2022 = [
