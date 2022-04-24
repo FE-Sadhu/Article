@@ -97,7 +97,8 @@ const words_2022 = [
   "terminology",
   "standalone",
   "briefly",
-  "subtract"
+  "subtract",
+  "dive into"
 ];
 
 const sentences_2022 = [
