@@ -98,7 +98,8 @@ const words_2022 = [
   "standalone",
   "briefly",
   "subtract",
-  "dive into"
+  "dive into",
+  "principle"
 ];
 
 const sentences_2022 = [
@@ -141,7 +142,8 @@ const sentences_2022 = [
   "With ordinary talent and extraordinary perseverance, all things are attainable.",
   "Activity is the only road to knowledge.",
   "Wise men speak because they have something to say; fools because they have to say something.",
-  "Beauty is when you can appreciate yourself. When you love yourself, that's when you are most beautiful."
+  "Beauty is when you can appreciate yourself. When you love yourself, that's when you are most beautiful.",
+  "We must accept finite disappointment, but we must never lose infinite hope."
 ]
 
 console.log(`${words_2022.length}/1000`);
