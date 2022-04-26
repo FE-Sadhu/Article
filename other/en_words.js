@@ -99,7 +99,12 @@ const words_2022 = [
   "briefly",
   "subtract",
   "dive into",
-  "principle"
+  "principle",
+  "Prerequisites",
+  "In particular",
+  "ahead of time",
+  "recommend",
+  "primary"
 ];
 
 const sentences_2022 = [
