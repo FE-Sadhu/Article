@@ -104,7 +104,10 @@ const words_2022 = [
   "In particular",
   "ahead of time",
   "recommend",
-  "primary"
+  "primary",
+  "come up with",
+  "convention",
+  "potential"
 ];
 
 const sentences_2022 = [
