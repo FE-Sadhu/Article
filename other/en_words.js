@@ -151,7 +151,8 @@ const sentences_2022 = [
   "Activity is the only road to knowledge.",
   "Wise men speak because they have something to say; fools because they have to say something.",
   "Beauty is when you can appreciate yourself. When you love yourself, that's when you are most beautiful.",
-  "We must accept finite disappointment, but we must never lose infinite hope."
+  "We must accept finite disappointment, but we must never lose infinite hope.",
+  "You can get help from teachers, but you are going to have to learn a lot by yourself, sitting alone in a room."
 ]
 
 console.log(`${words_2022.length}/1000`);
