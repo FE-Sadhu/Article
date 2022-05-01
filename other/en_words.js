@@ -107,7 +107,8 @@ const words_2022 = [
   "primary",
   "come up with",
   "convention",
-  "potential"
+  "potential",
+  "typical"
 ];
 
 const sentences_2022 = [
