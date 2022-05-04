@@ -108,7 +108,8 @@ const words_2022 = [
   "come up with",
   "convention",
   "potential",
-  "typical"
+  "typical",
+  "nerd"
 ];
 
 const sentences_2022 = [
