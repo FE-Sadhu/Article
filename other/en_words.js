@@ -111,7 +111,8 @@ const words_2022 = [
   "typical",
   "nerd",
   "will",
-  "reliability"
+  "reliability",
+  "courage"
 ];
 
 const sentences_2022 = [
