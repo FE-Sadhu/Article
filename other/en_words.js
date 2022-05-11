@@ -159,7 +159,8 @@ const sentences_2022 = [
   "Beauty is when you can appreciate yourself. When you love yourself, that's when you are most beautiful.",
   "We must accept finite disappointment, but we must never lose infinite hope.",
   "You can get help from teachers, but you are going to have to learn a lot by yourself, sitting alone in a room.",
-  "Simplicity is prerequisite for reliability"
+  "Simplicity is prerequisite for reliability",
+  "If the path be beautiful, let us not ask where it leads."
 ]
 
 console.log(`${words_2022.length}/1000`);
