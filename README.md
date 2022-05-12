@@ -1,4 +1,4 @@
-<p>Doubt is the key to knowledge.<p />
+<p>If the path be beautiful, let us not ask where it leads.<p />
 
 #### 2022
 - [Mobx 源码与设计思想](https://github.com/FE-Sadhu/Article/issues/27)
