@@ -2,7 +2,7 @@
 
 使用 Vue 的同学可能更愿意相信其官方的生态，直接上 vuex/pinia，不用过多纠结。由于我平常使用 React 较多，故就当前应用较广泛的 Redux、Mobx 俩工具库为例，研读了一番，记录下自己的一些闲言碎语。
 
-注意：以下不会涉及到各个库的具体用法，多是探讨各自的设计理念、推崇的模式（patterns），提前说明，以免耽误读者时间。
+注意：以下不会涉及到各个库的具体用法，多是探讨各自的设计理念、推崇的模式（patterns），提前说明，以免耽误大家时间。
 
 Redux、Mobx 或多或少都借鉴了 Flux 理念，比如大家经常听到的 “单向数据流” 这项原则最开始就是由 Flux 带入前端领域的，所以我们先来聊聊 Flux。
 
@@ -234,7 +234,24 @@ render() {
 
 如上面分析，Redux 是一个重思想轻代码的状态管理库，Mobx 则是相反，框架帮我们做了更多的事，用起来简单。
 
+稍微总结下区别：
 
+1. Redux 要求开发者按它的模式（patterns）写代码，Mobx 则自由许多，用起来更简单。相对地，基于 Redux 开发的系统健壮性要强一些，使用 Mobx 却管理不好状态的话，会使系统更难维护（咦，这为啥没渲染？咦！这为啥渲染了这么多次？？(逃 ）。
+2. Redux 结合函数式与 Immutable 的特性提供了时间旅行功能，更方便开发者调试与回溯状态。 Mobx 则是有提供一个全局监听的钩子，监听每一个状态改变与副作用的触发，我们直接打日志调试，但是相对于 Redux 肯定是没那么方便的。
+3. Redux 推崇单 Store 管理状态，降低状态管理的复杂度。Mobx 则不给开发者设限，开发者可以以任一形式管理状态，如果是多 Store，提供了 Computed Value 作为多 Store 数据的联系桥梁。
+4. Mobx 框架内部会帮我们实现最优渲染（副作用执行），Redux 则需要我们编写各种 selector 或用 memo 手动去优化...
+
+
+
+以上，欢迎有理有据地指正、补充。
+
+
+
+参考：
+
+- [Hacker Way: Rethinking Web App Development at Facebook](https://www.youtube.com/watch?v=nYkdrAPrdcw)
+- [Becoming fully reactive: an in-depth explanation of MobX](https://medium.com/hackernoon/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254)
+- [Immutable object](https://en.wikipedia.org/wiki/Immutable_object#JavaScript)
 
 
 
