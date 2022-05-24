@@ -113,7 +113,9 @@ const words_2022 = [
   "will",
   "reliability",
   "courage",
-  "abandon"
+  "abandon",
+  "tidy",
+  "clear up"
 ];
 
 const sentences_2022 = [
