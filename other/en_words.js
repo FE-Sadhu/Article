@@ -162,7 +162,8 @@ const sentences_2022 = [
   "We must accept finite disappointment, but we must never lose infinite hope.",
   "You can get help from teachers, but you are going to have to learn a lot by yourself, sitting alone in a room.",
   "Simplicity is prerequisite for reliability",
-  "If the path be beautiful, let us not ask where it leads."
+  "If the path be beautiful, let us not ask where it leads.",
+  "Resolve to perform what you ought. Perform without fail what you resolve."
 ]
 
 console.log(`${words_2022.length}/1000`);
