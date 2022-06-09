@@ -163,7 +163,8 @@ const sentences_2022 = [
   "You can get help from teachers, but you are going to have to learn a lot by yourself, sitting alone in a room.",
   "Simplicity is prerequisite for reliability",
   "If the path be beautiful, let us not ask where it leads.",
-  "Resolve to perform what you ought. Perform without fail what you resolve."
+  "Resolve to perform what you ought. Perform without fail what you resolve.",
+  "The more we try to understand one another, the more exceptional each of us will be. But we have to try."
 ]
 
 console.log(`${words_2022.length}/1000`);
