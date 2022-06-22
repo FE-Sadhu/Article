@@ -164,7 +164,8 @@ const sentences_2022 = [
   "Simplicity is prerequisite for reliability",
   "If the path be beautiful, let us not ask where it leads.",
   "Resolve to perform what you ought. Perform without fail what you resolve.",
-  "The more we try to understand one another, the more exceptional each of us will be. But we have to try."
+  "The more we try to understand one another, the more exceptional each of us will be. But we have to try.",
+  "The only person you are destined to become is the person you decide to be."
 ]
 
 console.log(`${words_2022.length}/1000`);
