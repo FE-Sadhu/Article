@@ -31,6 +31,8 @@ const ref = useRef(0); // 0 初始值
 
 effect 回调在每次重新调用前，调用上一次回调的销毁函数。 组件卸载时也会调用销毁函数。
 
+render capture 特性： 其实就是 effect 中的回调会闭包引用当下组件的状态。
+
 防止竞态例子:
 
 ```js
@@ -151,12 +153,107 @@ export default function ProfilePage({ userId }) {
 }
 ```
 
-通常，同一组件在同一位置再次渲染时，React 会保留组件的状态
+通常，**同一组件在同一位置再次渲染时，React 会保留组件的状态。**要想 React 重新初始化组件，可以给组件加不同的 key。
 
 正确做法:
 
 ```js
+export default function ProfilePage({ userId }) {
+  return (
+    <Profile
+      userId={userId} 
+      key={userId}
+    />
+  );
+}
+```
 
+#### 当 prop 改变时想要改变 state
+
+错误做法:
+
+```js
+function List({ items }) {
+  const [isReverse, setIsReverse] = useState(false);
+  const [selection, setSelection] = useState(null);
+
+  // 🔴 Avoid: 以 prop 为依赖去更新 state
+  useEffect(() => {
+    setSelection(null);
+  }, [items]);
+  // ...
+}
+```
+
+正确做法:
+
+```js
+function List({ items }) {
+  const [isReverse, setIsReverse] = useState(false);
+  const [selection, setSelection] = useState(null);
+
+  // Better: 在渲染阶段（正在执行函数组件）时去调整 state。
+  // 因为 useEffect 是在 React commit 阶段调用的，但是函数的执行是在 render 阶段调用的
+  const [prevItems, setPrevItems] = useState(items);
+  if (items !== prevItems) {
+    setPrevItems(items);
+    setSelection(null);
+  }
+  // ...
+}
+```
+
+这部分更好的做法要看业务逻辑，核心就是可以利用重渲染时会保存上一次状态的特性，然后在新一轮渲染阶段去对比上一次的状态和本次 prop。
+
+#### 不要把事件回调里能处理的逻辑放到 effect 中
+
+错误做法：
+
+```js
+function Form() {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+
+  // ✅ Good: This logic should run because the component was displayed
+  useEffect(() => {
+    post('/analytics/event', { eventName: 'visit_form' });
+  }, []);
+
+  // 🔴 Avoid: submit 事件就可以做的，没必要放在 effect 中
+  const [jsonToSubmit, setJsonToSubmit] = useState(null);
+  useEffect(() => {
+    if (jsonToSubmit !== null) {
+      post('/api/register', jsonToSubmit);
+    }
+  }, [jsonToSubmit]);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setJsonToSubmit({ firstName, lastName });
+  }
+  // ...
+}
+```
+
+正确做法:
+
+```js
+function Form() {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+
+  // ✅ Good: This logic runs because the component was displayed
+  useEffect(() => {
+    post('/analytics/event', { eventName: 'visit_form' });
+  }, []);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    // ✅ Good: 在事件回调里处理事件逻辑
+    post('/api/register', { firstName, lastName });
+  }
+  // ...
+}
 ```
 
 
