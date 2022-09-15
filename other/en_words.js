@@ -115,7 +115,8 @@ const words_2022 = [
   "courage",
   "abandon",
   "tidy",
-  "clear up"
+  "clear up",
+  "take part in"
 ];
 
 const sentences_2022 = [
