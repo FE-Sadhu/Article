@@ -51,3 +51,6 @@
 - [授人以渔式解析原生JS写轮播图](https://github.com/YxrSadhu/carousel)
 - [原生JS获取元素宽高实践详解](https://juejin.cn/post/6844903687043727368)
 - [html + css 仿写淘宝首页总结](https://github.com/YxrSadhu/model-taobao-homepage)
+
+#### 其他
+- [装了啥](./other/%E8%A3%85%E4%BA%86%E5%95%A5.md)
