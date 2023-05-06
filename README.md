@@ -1,4 +1,5 @@
-<p>If the path be beautiful, let us not ask where it leads.<p />
+#### 2023
+- [关于前端框架设计的一些思考](https://github.com/FE-Sadhu/Article/issues/30)
 
 #### 2022
 - [服务端渲染（SSR）技术的探索总结](https://github.com/FE-Sadhu/Article/issues/29)
