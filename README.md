@@ -1,3 +1,6 @@
+#### 2024
+- [宏观理解 React 原理](https://github.com/FE-Sadhu/Article/issues/32)
+
 #### 2023
 - [理解 React Scheduler 最小堆](https://github.com/FE-Sadhu/Article/issues/31)
 - [关于前端框架设计的一些思考](https://github.com/FE-Sadhu/Article/issues/30)
